@@ -22,17 +22,8 @@ export EXISTING_CLASS_NAME=<existing parse class name> && \
 export NEW_CLASS_NAME=<desired name for new parse class>
 	```
 	
-  - Then copy the modified text, with your app details and execute in the terminal:
-
-	```
-#Example Modified Text (DON'T COPY)- Fake APP_ID and REST_API_KEY below
-$ export APP_ID=RCto4O0CtoeIzEF9MALUonCMBvVw1to4O020LUon && \
-export REST_API_KEY=XF9Z6CMBD0PR2XsVRKT0iWoBvVOTBXsD0PROTXlW && \
-export EXISTING_CLASS_NAME=wineDetails && \
-export NEW_CLASS_NAME=WineDetails
-	```
-	
-	- Print and review environment variables to ensure they look correct.
+  - Then copy the modified text, with your app details and execute in the terminal.
+  - Print and review environment variables to ensure they look correct.
 
 	```
 $ printf "\nAPP ID:$APP_ID\nREST KEY:$REST_API_KEY\nEXISTING CLASS NAME:$EXISTING_CLASS_NAME\nNEW CLASS NAME:$NEW_CLASS_NAME\n"
